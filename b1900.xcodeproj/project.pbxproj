@@ -12,6 +12,16 @@
 		D41470CC2963BF2C00C5B336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470CB2963BF2C00C5B336 /* ContentView.swift */; };
 		D41470CE2963BF2F00C5B336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41470CD2963BF2F00C5B336 /* Assets.xcassets */; };
 		D41470D12963BF2F00C5B336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41470D02963BF2F00C5B336 /* Preview Assets.xcassets */; };
+		D41470DE2963C8FD00C5B336 /* AltimeterSettingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470DC2963C8FC00C5B336 /* AltimeterSettingSource.swift */; };
+		D41470DF2963C8FD00C5B336 /* AltitudeCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470DD2963C8FC00C5B336 /* AltitudeCorrection.swift */; };
+		D41470E32963C9C000C5B336 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E02963C9C000C5B336 /* TypeAliases.swift */; };
+		D41470E42963C9C000C5B336 /* StandardAtmosphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E12963C9C000C5B336 /* StandardAtmosphere.swift */; };
+		D41470E52963C9C000C5B336 /* UnitTemperatureLapseRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E22963C9C000C5B336 /* UnitTemperatureLapseRate.swift */; };
+		D41470EA2963CAF000C5B336 /* Nameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E62963CAEF00C5B336 /* Nameable.swift */; };
+		D41470EB2963CAF000C5B336 /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E72963CAEF00C5B336 /* Plate.swift */; };
+		D41470EC2963CAF000C5B336 /* AltitudeRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E82963CAEF00C5B336 /* AltitudeRestriction.swift */; };
+		D41470ED2963CAF000C5B336 /* Restriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470E92963CAEF00C5B336 /* Restriction.swift */; };
+		D41470EF2963CBAB00C5B336 /* ColdWeatherCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41470EE2963CBAB00C5B336 /* ColdWeatherCorrection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		D41470CB2963BF2C00C5B336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D41470CD2963BF2F00C5B336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41470D02963BF2F00C5B336 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D41470DC2963C8FC00C5B336 /* AltimeterSettingSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltimeterSettingSource.swift; sourceTree = "<group>"; };
+		D41470DD2963C8FC00C5B336 /* AltitudeCorrection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeCorrection.swift; sourceTree = "<group>"; };
+		D41470E02963C9C000C5B336 /* TypeAliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		D41470E12963C9C000C5B336 /* StandardAtmosphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardAtmosphere.swift; sourceTree = "<group>"; };
+		D41470E22963C9C000C5B336 /* UnitTemperatureLapseRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTemperatureLapseRate.swift; sourceTree = "<group>"; };
+		D41470E62963CAEF00C5B336 /* Nameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nameable.swift; sourceTree = "<group>"; };
+		D41470E72963CAEF00C5B336 /* Plate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		D41470E82963CAEF00C5B336 /* AltitudeRestriction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeRestriction.swift; sourceTree = "<group>"; };
+		D41470E92963CAEF00C5B336 /* Restriction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restriction.swift; sourceTree = "<group>"; };
+		D41470EE2963CBAB00C5B336 /* ColdWeatherCorrection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdWeatherCorrection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,7 @@
 		D41470C82963BF2C00C5B336 /* b1900 Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D41470DB2963C6EC00C5B336 /* AltitudeCorrection */,
 				D41470C92963BF2C00C5B336 /* b1900App.swift */,
 				D41470CB2963BF2C00C5B336 /* ContentView.swift */,
 				D41470CD2963BF2F00C5B336 /* Assets.xcassets */,
@@ -92,6 +113,23 @@
 				D41470D02963BF2F00C5B336 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D41470DB2963C6EC00C5B336 /* AltitudeCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				D41470EE2963CBAB00C5B336 /* ColdWeatherCorrection.swift */,
+				D41470E82963CAEF00C5B336 /* AltitudeRestriction.swift */,
+				D41470E62963CAEF00C5B336 /* Nameable.swift */,
+				D41470E72963CAEF00C5B336 /* Plate.swift */,
+				D41470E92963CAEF00C5B336 /* Restriction.swift */,
+				D41470E12963C9C000C5B336 /* StandardAtmosphere.swift */,
+				D41470E02963C9C000C5B336 /* TypeAliases.swift */,
+				D41470E22963C9C000C5B336 /* UnitTemperatureLapseRate.swift */,
+				D41470DC2963C8FC00C5B336 /* AltimeterSettingSource.swift */,
+				D41470DD2963C8FC00C5B336 /* AltitudeCorrection.swift */,
+			);
+			path = AltitudeCorrection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +230,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41470EF2963CBAB00C5B336 /* ColdWeatherCorrection.swift in Sources */,
+				D41470EC2963CAF000C5B336 /* AltitudeRestriction.swift in Sources */,
 				D41470CC2963BF2C00C5B336 /* ContentView.swift in Sources */,
+				D41470EB2963CAF000C5B336 /* Plate.swift in Sources */,
+				D41470ED2963CAF000C5B336 /* Restriction.swift in Sources */,
 				D41470CA2963BF2C00C5B336 /* b1900App.swift in Sources */,
+				D41470DE2963C8FD00C5B336 /* AltimeterSettingSource.swift in Sources */,
+				D41470E32963C9C000C5B336 /* TypeAliases.swift in Sources */,
+				D41470E52963C9C000C5B336 /* UnitTemperatureLapseRate.swift in Sources */,
+				D41470E42963C9C000C5B336 /* StandardAtmosphere.swift in Sources */,
+				D41470EA2963CAF000C5B336 /* Nameable.swift in Sources */,
+				D41470DF2963C8FD00C5B336 /* AltitudeCorrection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
